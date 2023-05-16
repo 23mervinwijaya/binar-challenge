@@ -1,15 +1,46 @@
 html,body{
-    padding: 0;
-    margin: 0;
+font-family: montserrat;
 }
 
-.bg-header{
-    background-color: #fff;
-    background:rgba(0, 0, 0, 0.8)
-}
-
-
-.navbar-header{
+.banner{
+    background: url('./assets/main-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 20% ;
+    padding-bottom: 20%;
     color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	box-shadow: 0 0 200px black inset;
+}
+.background-navbar{
+    background-color: black;
+    background: rgba(0, 0, 0, 0.65);
+    padding : 1em 4em 1em 4em
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-size : 0.75em;
+    font-weight : 500;
+}
+.disp-5{
+    font-weight: 600;
+    font-family: roboto;
+}
+.btn{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: roboto;
+    border-radius: 3px;
+}
+.btn:hover{
+    color: rgb(255, 187, 0);
+    background-color: rgba(0, 0, 0, 0.733);
+    border-color: rgb(255, 187, 0);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: roboto;
+    border-radius: 5px;
 }
