@@ -138,65 +138,71 @@
       <p class="caption text-center">Can My Computer Run this game?</p>
       <div class="container system-req-container">
         <div class="row">
-          <div class="col-md-4">
-            <div class="h1">SYSTEM REQUIREMENTS</div>
-            
-            <table style="border-color: rgba(255, 255, 255, 0.233);" border="1" cellpadding="10">
-              <tr>
-              <td>
-                <div class="h5">OS:</div>
+          <div class="col-md-6">
+            <div class="h1">SYSTEM<br>REQUIREMENTS</div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+
+              <div class="row">
+
+                <div class="col-md-6 border">
+                  <div class="h5">OS:</div>
                 <div class="caption">Windows 7 64-bit only<br>
                 (NO OSX support at this time)</div>
-              </td>
-              <td>
-                <div class="h5">PROCESSOR:</div>
-                <div class="caption">Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @2.8 GHZ
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="h5">MEMORY:</div>
-                <div class="caption">4 GB RAM
-              </td>
-              <td>
-                <div class="h5">STORAGE:</div>
-                <div class="caption">8 GB available space
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <div class="h5">GRAPHICS:</div>
-                <div class="caption">NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+                </div>
+                <div class="col-md-6 border">
+                  <div class="h5">PROCESSOR:</div>
+                <div class="caption">Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @2.8 GHZ</div>
+                </div>
               </div>
-              </td>
-            </tr>
+
+              <div class="row">
+                <div class="col-md-6 border">
+                  <div class="h5">MEMORY:</div>
+                <div class="caption">4 GB RAM</div>
+                </div>
+                <div class="col-md-6 border">
+                  <div class="h5">STORAGE:</div>
+                <div class="caption">8 GB available space</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 border">
+                  <div class="h5">GRAPHICS:</div>
+                  <div class="caption">NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</div>
+                </div>
+                
+              </div>
+            </div>
           </div>
-        </table>
-        </div>
+            
       </div>
     </div>
   </div>
 
     <!-- Section 5 : TOP SCORES -->
     <div class="container-fluid top-scores">
-      <div class="container d-flex">
+      <div class="container">
         <div class="row d-flex align-items-center">
-          <div class="col col-score">
+          <div class="col p-4">
               <div class="display-5 display-5-scores">TOP SCORES</div>
               <div class="paragraph caption">This top score from various games provided on this platform</div>
               <a href="#">
                 <button type="button" class="btn btn-warning btn-lg" style="margin-top: 20px;">see more</button>
               </a>
             </div>
-          </div>
-            <div class="col">
+            <div class="col-lg">
               <!-- Card 1 -->
-              <div class="d-flex justify-content-end">
+              <div class="row">
+                <div class="col card-end">
                 <div class="card mb-3 bg-card px-4 pt-2 pb-2"  style="max-width: 500px;">
                 <div class="row d-flex align-items-center">
 
-                  <div class="col-md-2 d-flex align-items-start p-2">
-                    <img src="./assets/evan-lahti.jpg"width="80px" style="border-radius: 100%;" alt="...">
+                  <div class="col-md-2 p-2 ">
+                    <img src="./assets/evan-lahti.jpg"width="70px" style="border-radius: 100%;" alt="...">
                   </div>
 
                   <div class="col-md-8">
@@ -213,13 +219,15 @@
                   <p class="card-time">June 18,2021</p>
               </div>
             </div>
+            </div>
             
             <!-- Card 2 -->
-            <div class="d-flex justify-content-start">
+            <div class="row">
+              <div class="col card-start">
               <div class="card mb-3 bg-card px-4 pt-2 pb-2" style="max-width: 500px;">
               <div class="row d-flex align-items-center">
 
-                <div class="col-md-2 d-flex align-items-start p-2">
+                <div class="col-md-2 p-2">
                   <img src="./assets/jada-griffin.jpg" width="70px" style="border-radius: 100%;" alt="...">
                 </div>
 
@@ -237,13 +245,15 @@
                 <p class="card-time">July 10,2021</p>
             </div>
           </div>
+          </div>
 
           <!-- Card 3 -->
-          <div class="d-flex justify-content-end">
+          <div class="row">
+            <div class="col card-end">
             <div class="card mb-3 bg-card px-4 pt-2 pb-2" style="max-width: 500px;">
             <div class="row d-flex align-items-center">
 
-              <div class="col-md-2 d-flex align-items-start p-2">
+              <div class="col-md-2 p-2">
                 <img src="./assets/aaron-williams.jpg" width="70px" style="border-radius: 100%;" alt="...">
               </div>
 
@@ -261,32 +271,34 @@
               <p class="card-time">December 24, 2018</p>
           </div>
         </div>
-            </div>
-              </div>
+        </div>
+          
+          
+        </div>
+          </div>
+        </div>
     </div>
 
-    
-    
     <!-- Section 6 : NEWS LETTER -->
     <div class="container-fluid news-letter">
       <div class="container">
       <div class="row d-flex align-items-center">
-        <div class="col">
-          <img src="./assets/skull.png" alt="">
+        <div class="col-md-5">
+          <img src="./assets/skull.png" class="skull" alt="skull">
         </div>
-        <div class="col">
+        <div class="col-md-7">
           <div class="paragraph pb-3">Want to stay in touch?</div>
-          <div class="h1 pb-3">NEWSLETTER<br>SUBSCRIBE</div>
+          <div class="h1 pb-3">NEWSLETTER SUBSCRIBE</div>
           <div class="caption">In order to start receiving our news, all ytou have to do is enter
             your email address. Everything else will be taken care of by us. We will send your emails
             containing information about game. We don't spam.
           </div>
 
           <form class="row d-flex align-items-center mt-4 mb-2">
-            <div class="col-md-6">
+            <div class="col-md-4 mb-2">
               <input type="email" class="form-control" id="inputEmail" placeholder="youremail@binar.com" style="background-color:rgba(255, 255, 255, 0.842)">
             </div>
-            <div class="col-md-5 ">
+            <div class="col-md-8 mb-2">
               <button type="submit" class="btn btn-warning pt-2 pb-2" style="color:black;font-family:helvetica;font-size:15px;background-color: rgb(255, 187, 0);">Subscribe Now</button>
             </div>
           </form>
@@ -295,7 +307,7 @@
 
     <!-- Footer -->
     <div class="row-lg d-flex align-items-center footer">
-      <div class="col-md-10 footer d-flex justify-content-end ms-auto">
+      <div class="col-md-10 footer d-flex justify-content-end">
         <ul class="nav">
         <li class="nav-item">
           <a class="nav-link" href="#">MAIN</a>
@@ -314,7 +326,7 @@
         </li>
       </ul>
     </div>
-    <div class="col-md-2 d-flex justify-content-end footer">
+    <div class="col-md-2 list-icon">
       <a href=""><img src="./assets/facebook.svg" alt="icon-facebook"></a>
       <a href=""><img src="./assets/twitter.svg" alt="icon-twitter"></a>
       <a href=""><img src="./assets/vector.svg" alt="icon-youtube"></a>
@@ -324,10 +336,10 @@
 
     <hr color="white">
     <div class="row footer row-lg">
-      <div class="col-md-6">
+      <div class="col-md-6 copyright-bar">
         <p class="caption">© 2018 Your Games, Inc. All Rights Reserved</p>
       </div>
-      <div class="col-md-6 d-flex justify-content-end">
+      <div class="col-md-6 privacy-bar">
         <p class="caption" style="font-weight: 400;color: white;font-size: 10px;">PRIVACY POLICY | TERMS OF SERVICES | CODE OF CONDUCT</p>
       </div>
     </div>
